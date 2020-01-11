@@ -34,7 +34,7 @@ Object.entries(username).forEach(([key, value]) => console.log(key, value));
 
 // 3. Convert Object to Array 
 
-var person = { name: 'Amy', age: 40}
+var person = { name: 'Amy', age: 40 }
 
 var arr = []
 
@@ -65,7 +65,7 @@ var user = {
 console.log('name' in user)
 console.log('address' in user)
 console.log('street' in user.address) - this will also return true
-for all methods on the object prototype so user
+for all methods on the object prototype so use
 console.log(user.hasOwnProperty('address'))
 console.log(user.address.hasOwnProperty('city'))
 
