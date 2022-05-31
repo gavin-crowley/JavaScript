@@ -44,3 +44,6 @@ let dogss = animals.filter(isDog)
 let otherAnimals = animals.reject(isDog)
 
 console.log(dogs);
+
+
+// find() does same as filter(), but only returns first item
