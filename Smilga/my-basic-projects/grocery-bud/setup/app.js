@@ -48,7 +48,7 @@ function addItem(e) {
     // add to local storage
     addToLocalStorage(id, value)
     // set back to default
-    setBackToDefault()
+    setBackToDefault() 
   } else if (value && editFlag) {
     console.log("editing");
   } else {
@@ -69,8 +69,11 @@ function displayAlert(text, action) {
 }
 
 // set back to default
-function setBackToDefault () {
-    console.log("set back to default");
+function setBackToDefault() {
+    grocery.value = ""
+    editFlag = false
+    editID = ""
+    submitBtn.textContent = "submit"
 }
 // ****** LOCAL STORAGE **********
 function addToLocalStorage(id, value) {
