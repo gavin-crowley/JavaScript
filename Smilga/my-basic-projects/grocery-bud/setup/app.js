@@ -21,7 +21,15 @@ form.addEventListener("submit", addItem)
 function addItem(e) {
     e.preventDefault()
     const value = grocery.value
-    console.log(value);
+    
+    const id = new Date().getTime().toString()
+    if (value && !editFlag) {
+        console.log("add item to list");
+    } else if (value && editFlag) {
+        console.log("editing");
+    } else {
+        console.log("empty value");
+    }
 }
 
 // ****** LOCAL STORAGE **********
