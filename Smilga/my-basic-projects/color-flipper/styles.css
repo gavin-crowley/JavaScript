@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+nav {
+  background: white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.nav-center ul {
+  display: flex;
+  list-style-type: none;
+  margin-right: 1em;
+  align-items: center;
+  padding-left: 0;
+}
+
+.nav-center a {
+  margin-right: 1em;
+  text-decoration: none;
+  color: inherit;
+}
+
+h4 {
+  color: #645cff;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: .75em 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    background: black;
+    color: white;
+    padding: .5em .5em;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+h2 span {
+    color: #645CFF;
+}
+
+.btn {
+    padding: .5em .75em;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.btn:hover {
+    display: inline-block;
+    background: black;
+    color: white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease-in-out all;
+    cursor: pointer;
+}
+
+
+@media (max-width: 705px) {
+    .container {
+        width: 90%;
+    }
+}
