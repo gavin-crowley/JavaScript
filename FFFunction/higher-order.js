@@ -41,7 +41,7 @@ let isDog = function(animal) {
 let dogss = animals.filter(isDog)
 
 // makes isDog reusable to find inverse
-let otherAnimals = animals.reject(isDog)
+// let otherAnimals = animals.reject(isDog)
 
 console.log(dogs);
 
