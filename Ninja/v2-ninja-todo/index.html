@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Ninja Todo</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Todo List</h1>
+        <form class="search">
+          <input type="text" name="search" placeholder="search todos" />
+        </form>
+      </header>
+
+      <ul class="todos">
+        <!-- <li><span>play mariokart</span> <button class="delete">delete</button></li> -->
+        <li><span><a href="#" class="delete">play mariokart</a></span></li>
+        <li><span><a href="#" class="delete">defeat ganon in zelda</a></span></li>
+        <li><span><a href="#" class="delete">make a veggie pie</a></span></li>
+      </ul>
+
+      <form class="add">
+        <label>Add a new todo...</label>
+        <input type="text" name="add" />
+      </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

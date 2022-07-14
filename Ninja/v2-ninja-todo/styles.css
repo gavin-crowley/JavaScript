@@ -1,0 +1,15 @@
+.filtered {
+  display: none !important;
+}
+
+.todos li {
+  list-style-type: none;
+}
+
+.todos li a {
+  text-decoration: none;
+}
+
+.todos li a:hover {
+  text-decoration: line-through;
+}
