@@ -38,6 +38,8 @@ books.forEach(function (book) {
   console.log(book);
 });
 
+
+
 // Array.from(books).forEach(function(book) {
 //     console.log(book);
 // })
