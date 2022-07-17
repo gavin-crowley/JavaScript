@@ -35,7 +35,7 @@ When the user clicks the ‘Register’ button, a message should be displayed in
 
 
 /*
-  Exercise 02
+  Exercise 06
   -----------
   Add a required validation to each input that shows an error message next to the entry if it does not have any text entered.
 */
