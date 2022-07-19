@@ -1,31 +1,85 @@
-// get character from ASCII Value
-// console.log(String.fromCharCode(65));
+// const arr = [22, -6, 32, 82, 9, 25];
 
-// seats in theater
-// const nCols = 16, nRows = 11, col = 5, row = 3;
-// console.log((nCols - col + 1) * (nRows-row));
+// const result = arr.filter((x, i) => {
+//   return x % i === 0;
+// });
 
-// total amount of points
+// console.log(result);
 
-// const games = ["3:1", "2:2", "0:1"]
-// const games = ["3:1", "2:2", "0:1", "1:0", "2:1", "3:1", "3:2", "4:1"]
 
-// const total = games.reduce(function (acc, game) {
-//     const [x, y] = game.split(':')
-//     const points = x > y ? 3 : x === y ? 1 : 0
-//     acc += points
-//     return acc
-// }, 0)
+// const arr1 = [1,2,3]
+// const arr2 = [4,5,6]
+// console.log(arr1 + arr2);
 
-// console.log(total);
+// console.log(arr1.concat(arr2));
 
-const arr = ["hay", undefined, 2, true, false, "needle", "randomJunk"];
+// arr3 =arr1.concat(arr2)
+// const res = arr3.reduce((sum, i) => {
+//   return sum + i;
+// },0)
 
-// const needle = "needle";
+// console.log(res);
 
-const index = arr.findIndex(function (item) {
-  return item === "needle";
-});
 
-console.log('found the needle at position ' + (index + 1));
-console.error('found the needle at position ')
+// arr1.concat(arr2).reduce((sum, i) => {
+//   return sum + i;
+// },0)
+
+// const arr1 = [1,2,3]
+// const arr2 = [4,5,6,6]
+
+// const arr1 = [1,3,5,7,9]
+// const arr2 = [10,8,6,4,2]
+// console.log(arr1.concat(arr2));
+// const arr = arr1.concat(arr2)
+
+// const arr3 = arr1.concat(arr2).sort((a, b) => a - b).filter((value, index, array) => {
+//   return array.indexOf(value) === index;
+// });
+// console.log(arr3);
+
+// const arr = [1,2,3,4]
+// const result = arr.reduce((a, b) => (a * b), 1)
+// console.log(result);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
