@@ -42,8 +42,15 @@
 // const result = arr.reduce((a, b) => (a * b), 1)
 // console.log(result);
 
+// const arr = [4,3,9,7,2,1]
 
+// console.log(Math.round(2.1))
 
+// const res = (Math.sqrt(4) % 1) != 0 ? false : true
+// console.log(res);
+
+// const result = arr.map(num => (Math.sqrt(num) % 1) != 0 ? num**2 : Math.sqrt(num))
+// console.log(result);
 
 
 
