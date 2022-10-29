@@ -7,3 +7,5 @@ As of 2022, 98% of websites use JavaScript on the client side for webpage behavi
 All major web browsers have a dedicated JavaScript engine to execute the code on users' devices.
   
 JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard
+
+ It has dynamic typing, prototype-based object-orientation, and first-class functions.
