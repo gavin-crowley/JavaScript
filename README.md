@@ -11,3 +11,5 @@ It has dynamic typing, prototype-based object-orientation, and first-class funct
 It is multi-paradigm, supporting event-driven, functional, and imperative programming styles.
  
 It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
+
+The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities.
