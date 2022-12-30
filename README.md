@@ -13,3 +13,6 @@ It is multi-paradigm, supporting event-driven, functional, and imperative progra
 It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM).
 
 The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities.
+
+In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+
