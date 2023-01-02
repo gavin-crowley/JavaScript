@@ -16,3 +16,5 @@ The ECMAScript standard does not include any input/output (I/O), such as network
 
 In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
 
+JavaScript engines were originally used only in web browsers, but are now core components of some servers and a variety of applications. 
+
