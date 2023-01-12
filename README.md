@@ -21,3 +21,6 @@ JavaScript engines were originally used only in web browsers, but are now core c
  The most popular runtime system for this usage is Node.js.
  
  Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
+
+
+The first popular web browser with a graphical user interface, Mosaic, was released in 1993
