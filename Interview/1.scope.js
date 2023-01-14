@@ -1,6 +1,6 @@
-// var a = 5;
+var a = 5;
 
-// console.log(a);
+console.log(a);
 
 // Block Scoping
 
