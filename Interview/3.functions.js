@@ -131,7 +131,3 @@ console.log(add(3, 5));
 
 // Do this for Goodluck
 
-
-
-
-
