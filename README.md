@@ -23,4 +23,6 @@ JavaScript engines were originally used only in web browsers, but are now core c
  Although Java and JavaScript are similar in name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
 
 
-The first popular web browser with a graphical user interface, Mosaic, was released in 1993
+The first popular web browser with a graphical user interface, Mosaic, was released in 1993.
+
+Accessible to non-technical people, it played a prominent role in the rapid growth of the nascent World Wide Web.[11] 
